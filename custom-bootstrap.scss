@@ -134,13 +134,21 @@ main .height {
 
 .carousel-control-prev,
 .carousel-control-next {
-  position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  border: none;
-  color: white;
-  cursor: pointer;
-  z-index: 1000;
+  color: $n-secondary;
+
+  &:hover {
+    background-color: rgba(100, 100, 100, 0) !important;
+  }
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: $n-primary;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
 }
 
 .carousel-slide {
