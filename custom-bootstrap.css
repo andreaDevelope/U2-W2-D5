@@ -12527,6 +12527,9 @@ footer button {
     margin-left: 2rem;
   }
 }
+footer .text-n-secondary.bi {
+  cursor: pointer;
+}
 footer address {
   font-size: 0.4rem;
   margin-left: 2rem;
