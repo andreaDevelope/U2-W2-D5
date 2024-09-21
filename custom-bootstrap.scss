@@ -5,12 +5,14 @@ $n-primary: #212529;
 $n-secondary: #e6e6e6;
 $n-terzary: #666666;
 $n-boh: #333333;
+$n-boh2: #a7a4a1;
 
 $new-them-colors: (
   "n-primary": $n-primary,
   "n-secondary": $n-secondary,
   "n-terzary": $n-terzary,
   "n-boh": $n-boh,
+  "n-boh2": $n-boh2,
 );
 
 $theme-colors: map-merge($theme-colors, $new-them-colors);
@@ -325,6 +327,33 @@ footer {
       flex-direction: column;
       gap: 0 !important;
       justify-content: center;
+    }
+  }
+}
+
+// profile
+.lecter-spacing {
+  letter-spacing: 3px;
+  font-size: 0.8rem;
+  margin-bottom: 3px;
+}
+
+.main-profile {
+  p {
+    cursor: pointer;
+  }
+
+  .avatar-profile {
+    width: 16px;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  button {
+    &:hover {
+      scale: 1.1;
     }
   }
 }

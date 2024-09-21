@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- link awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- link bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- icon bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <!-- link CSS -->
+    <link rel="stylesheet" href="./custom-bootstrap.css" />
+    <title>Simil-Netflix</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg text-bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html"><img height="40" src="./assets/netflix_logo.png" /></a>
+
+          <button
+            class="navbar-toggler bg-n-secondary"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-white" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">TV Shows</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Movies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Recently Added</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">My List</a>
+              </li>
+            </ul>
+
+            <div class="d-flex justify-content-center responsive-hidden">
+              <form class="d-flex" role="search">
+                <input id="s-bar" class="form-control me-2 hidden" type="search" placeholder="Search" aria-label="Search" />
+                <button id="form-btn" class="btn btn-outline-n-secondary border-0 text-n-secondary" type="button"><i class="fas fa-search"></i></button>
+              </form>
+              <li class="nav-item text-white d-flex align-items-center ms-3">KIDS</li>
+              <li class="nav-item dropdown d-flex align-items-center ms-3">
+                <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fas fa-bell text-white"></i>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end bg-secondary">
+                  <li><a class="dropdown-item text-white" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown d-flex align-items-center ms-3 me-3">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <img height="30" src="./assets/avatar.png" />
+                </a>
+
+                <ul class="dropdown-menu dropdown-menu-end bg-secondary">
+                  <li><a class="dropdown-item text-white" href="./profile.html">Profile</a></li>
+                  <li><a class="dropdown-item text-white" href="./settings.html">Settings</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item text-white" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container-fluid w-75 px-5 my-5 main-profile">
+      <div class="row gap-md-0 gap-4">
+        <div class="col-12">
+          <h1 class="fs-2 border-bottom border-1 border-n-primary pb-3">Account</h1>
+        </div>
+        <div class="col-12 col-md-4 pe-0">
+          <h3 class="text-n-boh2 mt-2">MEMBERSHIP & BILLING</h3>
+          <button type="button" class="btn btn-n-secondary shadow-sm fw-semibold rounded-0 py-2 px-4 my-3 d-block fs-6">Cancel Membership</button>
+        </div>
+        <div class="col-12 col-md-8 ps-md-0 d-flex justify-content-between border-bottom border-1 border-n-primary">
+          <div>
+            <p class="mt-2 mb-2 fw-bold">student@strive.school</p>
+            <p class="text-n-boh2 mb-2 fw-bold">Password: ********</p>
+            <p class="text-n-boh2 mb-2 fw-bold">Phone: 321 044 1279</p>
+          </div>
+          <div>
+            <p class="mt-2 mb-2 text-primary fw-medium text-end">Change account email</p>
+            <p class="mb-2 text-primary fw-medium text-end">Change password</p>
+            <p class="mb-2 text-primary fw-medium text-end">Change phone number</p>
+          </div>
+        </div>
+        <!-- ----------------------------------------------------------------------------------------------- -->
+        <div class="col-12 col-md-4 pe-0"></div>
+        <div class="col-12 col-md-8 ps-md-0 d-flex justify-content-between border-bottom border-1 border-n-primary">
+          <div>
+            <p class="mt-2 mb-2 fw-bold">
+              <i class="bi bi-paypal"></i> <span class="fst-italic fw-bold me-2">PayPal</span>
+              admin@strive.school
+            </p>
+          </div>
+          <div>
+            <p class="mt-2 mb-2 text-primary fw-medium text-end">Update payment info</p>
+            <p class="mb-2 text-primary fw-medium text-end">Billing details</p>
+          </div>
+        </div>
+        <!-- ---------------------------------------------------------------------------------------------- -->
+        <div class="col-12 col-md-4 pe-0"></div>
+        <div class="col-12 col-md-8 ps-md-0 d-flex justify-content-between">
+          <div></div>
+          <div>
+            <p class="mt-2 mb-2 text-primary fw-medium text-end">Redeem gift card or promo code</p>
+            <p class="mb-2 text-primary fw-medium text-end">Where to buy gift card</p>
+          </div>
+        </div>
+        <!-- ---------------------------------------------------------------------------------------------- -->
+        <div class="border-bottom border-1 border-n-primary d-flex border-top border-1 border-n-primary d-flex">
+          <div class="col-12 col-md-4 pe-0">
+            <h3 class="text-n-boh2 mt-2">PLAN DETAIL</h3>
+          </div>
+          <div class="col-12 col-md-8 ps-md-0 d-flex justify-content-between">
+            <div>
+              <p class="mt-2 mb-2 fw-bold d-inline-block me-1">Premium</p>
+              <button class="btn border border-1 border-dark rounded-0 p-0 lecter-spacing" type="button">ULTRA<span class="fw-bold">HD</span></button>
+            </div>
+            <div>
+              <p class="mt-2 mb-2 text-primary fw-medium text-end">Change plan</p>
+            </div>
+          </div>
+        </div>
+        <!-- ---------------------------------------------------------------------------------------------- -->
+        <div class="col-12 col-md-4 pe-0">
+          <h3 class="text-n-boh2 mt-2">MY PROFILE</h3>
+        </div>
+        <div class="col-12 col-md-8 ps-md-0 d-flex justify-content-between">
+          <div>
+            <p class="mt-3 mb-3 fw-bold"><img class="me-1 avatar-profile" src="./assets/avatar.png" alt="img-avatar.png" />Strive Student</p>
+            <p class="mb-2 text-primary fw-medium align-self-start">Language</p>
+            <p class="mb-2 text-primary fw-medium align-self-start">Play back setting</p>
+            <p class="mb-2 text-primary fw-medium align-self-start">Subtitle appearance</p>
+          </div>
+          <div></div>
+          <div class="d-flex flex-column justify-content-center">
+            <p class="mb-2 text-primary fw-medium align-self-start">Viewing activity</p>
+            <p class="mb-2 text-primary fw-medium align-self-start">Ratings</p>
+          </div>
+          <div>
+            <p class="mt-2 mb-0 text-primary fw-medium text-end">Manage profiles</p>
+            <p class="mb-2 text-primary fw-medium text-end">Add profile email</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
