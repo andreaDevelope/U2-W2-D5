@@ -12655,6 +12655,11 @@ footer address {
 .main-profile img {
   width: 100%;
 }
+@media screen and (min-width: 200px) and (max-width: 500px) {
+  .main-profile img {
+    width: 80px;
+  }
+}
 .main-profile .position-relative {
   width: 200px;
 }
@@ -12668,9 +12673,9 @@ footer address {
   background-color: #212529;
   cursor: pointer;
 }
-@media screen and (min-width: 300px) and (max-width: 1500px) {
+@media screen and (min-width: 200px) and (max-width: 500px) {
   .main-profile .position-absolute {
-    font-size: 80%;
+    font-size: 40%;
     left: 0.2rem;
     bottom: 0.2rem;
   }
@@ -12710,6 +12715,7 @@ footer address {
 @media screen and (max-width: 550px) {
   .main-profile button {
     font-size: 0.6rem;
+    width: 80px;
   }
 }
 .main-profile input[type=checkbox] {
