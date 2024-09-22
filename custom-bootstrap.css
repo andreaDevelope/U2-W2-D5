@@ -12746,21 +12746,20 @@ footer address {
   }
 }
 
-.lecter-spacing {
+.main-settings .text-primary {
+  cursor: pointer;
+}
+.main-settings .lecter-spacing {
   letter-spacing: 3px;
   font-size: 0.8rem;
   margin-bottom: 3px;
 }
-
-.main-profile p {
-  cursor: pointer;
-}
-.main-profile .avatar-profile {
+.main-settings .avatar-profile {
   width: 16px;
 }
-.main-profile h3, .main-profile .h3 {
+.main-settings h3, .main-settings .h3 {
   font-size: 1.2rem;
 }
-.main-profile button:hover {
+.main-settings button:hover {
   scale: 1.1;
 }/*# sourceMappingURL=custom-bootstrap.css.map */

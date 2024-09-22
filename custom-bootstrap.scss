@@ -332,15 +332,16 @@ footer {
 }
 
 // profile
-.lecter-spacing {
-  letter-spacing: 3px;
-  font-size: 0.8rem;
-  margin-bottom: 3px;
-}
 
-.main-profile {
-  p {
+.main-settings {
+  .text-primary {
     cursor: pointer;
+  }
+
+  .lecter-spacing {
+    letter-spacing: 3px;
+    font-size: 0.8rem;
+    margin-bottom: 3px;
   }
 
   .avatar-profile {
